@@ -11,7 +11,7 @@ test.beforeEach((t) => {
 });
 
 test("Get all commits when there is no last release", async (t) => {
-  // Create a git repository, set the current working directory at the root of the repo
+  // Create a git repository, set the current working directory at the root of the repo sssssssss
   const { cwd } = await gitRepo();
   // Add commits to the master branch
   const commits = await gitCommits(["First", "Second"], { cwd });
